@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install numpy
-          # pip install torch - need to find a way to cache this otherwise it will take a long time to install
+          # pip install torch -- need to find a way to cache this otherwise it will take a long time to install
 
       - name: Create and run training script
         run: |
